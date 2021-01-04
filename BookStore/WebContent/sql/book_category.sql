@@ -1,9 +1,9 @@
 -- 도서 카테고리 테이블
 
 create table book_category(
-	cate_name number(20) not null,			    -- 카테고리 이름
-	cate_code varchar2(30) primary key,		    -- 카테고리 중분류
-	cate_code_ref varchar2(30),			        -- 카테고리 대분류(FK book_category cate_code)
+	cate_name varchar2(20) not null,			    -- 카테고리 이름
+	cate_code number(10) primary key,		    -- 카테고리 중분류
+	cate_code_ref number(10),			        -- 카테고리 대분류(FK book_category cate_code)
 	foreign key(cate_code_ref) references book_category(cate_code)
 );
 
