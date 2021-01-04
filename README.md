@@ -31,6 +31,7 @@
 3. 도서 요청
 4. 마이페이지(장바구니, 판매,구매목록, 회원탈퇴)
 5. 고객센터(FAQ, Q&A)
+6. 반응형 웹 구현
 
 <br/>
 
@@ -76,8 +77,13 @@
 <br>
 
 ## 고객센터(FAQ, Q&A)
-<img src="https://user-images.githubusercontent.com/46274903/103535717-91bc4480-4ed4-11eb-9021-afacd3a4955a.png">
+<img src="https://user-images.githubusercontent.com/46274903/103535958-ff687080-4ed4-11eb-82af-75b5a2087b16.png">
 
 - FAQ (admin 계정일시 등록 수정 삭제 가능)
 - Q&A (비회원, 회원 작성)
 <br>
+
+## 반응형 웹 구현
+<img src="https://user-images.githubusercontent.com/46274903/103536168-5cfcbd00-4ed5-11eb-9483-5289222d8371.PNG">
+
+
