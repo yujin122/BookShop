@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+#book_buy_form_box {
+	width : 80%;
+	margin : 0 auto;
+	text-align: left;	
+}
+
+#book_buy_form_box h3 {
+	border-bottom: 2px solid black;
+	text-align: center;
+	font-weight: bold;
+	padding : 40px 0;
+	margin : 10px 0 30px 0;
+}
+
+#book_buy_form_box p {
+	margin : 20px 0;
+	font-size : 15px;
+	font-weight: bold;
+}
+
+#book_buy_info_box {
+	padding : 20px 10px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+}
+
+#book_buy_info_box table, #buy_mem_info_box table {
+	width : 100%;
+}
+
+#book_buy_info_box table th, #book_buy_info_box table, #buy_mem_info_box table th {
+	text-align: center;
+}
+
+#book_buy_info_box table td {
+	padding : 10px 10px 10px 0;	
+}
+
+#book_buy_info_box span {
+	font-style: italic;
+	text-decoration: line-through;
+}
+
+.buy_form_td {
+	width: 50%;
+	text-align: left;
+	padding-left : 10px;
+}
+
+#book_buy_form_img_td {
+	width: 10%;
+}
+
+.buy_tr, #book_buy_form_img_td {
+	text-align: right;
+}
+
+#buy_mem_info_box {
+	padding : 30px;
+	background-color: #f9f9f9;
+	border-radius: 10px;
+}
+
+#buy_mem_info_box table td {
+	text-align : left;
+	padding :10px;
+}
+
+#buy_mem_info_box table textarea{
+	resize: none;
+}
+
+#book_buy_form_btn_box {
+	padding : 20px 0;
+	text-align: center;
+}
+
+.book_img {
+	height: 180px;
+}
+
+@media (max-width: 1000px) {
+	#buy_mem_info_box table textarea {width: 100%;}
+	#buy_mem_info_box table th {width: 20%;}
+	#book_buy_info_box, #buy_mem_info_box {font-size: 13px;}
+}
+
+@media (max-width: 768px) {
+	#buy_mem_info_box input[type=radio] {width: 20px; height:15px; display: inline-block;}	
+	#book_buy_form_box {width: 90%;}
+	#book_buy_form_box input {width: 50%;}
+}

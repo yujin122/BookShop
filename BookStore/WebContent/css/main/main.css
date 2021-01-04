@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#new_book, #best_book { 
+	width: 90%; 
+	margin: 0 auto;
+}
+
+#new_book h3, #best_book h3 {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.main_book_img {
+	width : 14%;
+	margin: 1%;
+}
+
+.book_list {text-align: center;}
+.mini_list {display: none;}
+
+@media (max-width: 1000px) {
+	#new_book, #best_book {width: 100%;}
+}
+
+@media (max-width: 768px) {
+	#new_book, #best_book {width: 95%;}
+	.mini_list {display: inline;}
+	.main_book_img { width : 22%; margin: 3%;}
+}

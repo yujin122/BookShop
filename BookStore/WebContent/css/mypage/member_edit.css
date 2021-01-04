@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.main_box h2 {
+	text-align: center;
+}
+
+#mem_info_box {width : 60%; text-align: center; background-color: #f9f9f9; padding : 20px; border-radius: 10px;}
+#mem_info_box table { width : 100%; }
+#mem_info_box table th {width: 20%;}
+#mem_info_box table th, #mem_info_box table td {padding: 20px 5px;}
+#mem_info_box table td {text-align: left;}
+#mem_info_btn {width : 60%; text-align: center; margin: 30px 0;}
+#member_info_up_box, #mem_info_up_btn {text-align: center; width: 60%; margin: 20px auto;}
+#member_info_up_box table {width: 100%;}
+#member_info_up_box table th {width: 30%; text-align: right;}
+#member_info_up_box table th, #member_info_up_box table td {padding: 10px 5px;}
+#member_info_up_box table td {text-align: left;}
+#member_info_up_box table input {width: 100%}
+#sample4_postcode {width: 70%;}
+#email_check {color: gray; padding-left:5px;}
+
+.edit_box{
+	text-align: center;
+}
+
+.form-horizontal{
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	#mem_info_box, #mem_info_btn {width: 90%;}
+	#member_info_up_box, #mem_info_up_btn {width: 90%;}
+	#member_info_up_box table th {width: 20%;}
+}
+@media (max-width: 768px) {
+	#member_info_up_box, #mem_info_up_btn {width: 80%;}
+	#member_info_up_box table th {width: 20%;}
+}

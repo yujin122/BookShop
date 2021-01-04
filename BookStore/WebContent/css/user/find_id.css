@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body {
+	text-align: center;
+}
+#find_id_wrap{
+	background-color: #f9f9f9;
+}
+#find_id_box{
+	background-color: white;
+	width : 70%;
+	margin : 30px auto;
+	text-align: center;
+	padding : 0 20px;;
+}
+table{
+	margin: auto;
+	text-align: center;
+}
+#find_id_box table th, #find_id_box table td{
+	padding: 10px 0;
+}

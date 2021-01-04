@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+.write_tb {
+	width : 100%;
+	text-align: center;
+	font-size : 14px;
+	border-collapse: collapse;
+}
+
+.write_tb a {
+	text-decoration: none;
+	color: black;
+}
+
+.write_tb th, .write_tb td {
+	padding : 15px 5px;
+	border-bottom: 1px solid gray;
+}
+
+.write_tb th {
+	font-weight: bold;
+	vertical-align: inherit;
+	border-top: 2px solid #2693ff;
+	padding : 15px 5px;
+	text-align: center;
+	background-color: #5badff;
+	color : white;
+}
+
+.write_tb a:hover {font-weight: bold;}
+
+.write_tit_td {
+	width : 45%;
+	text-align: left;
+}
+
+#cart_del_box {
+	width : 100%;
+	text-align: right;
+	padding : 10px 0 10px 0;
+}
+
+#cart_del_box input { width : 8%; }
+
+@media (max-width: 1000px) {
+	.write_tit_td {width : 35%;}
+}
+@media (max-width: 768px) {
+	.write_tit_td {width : 40%;}
+}

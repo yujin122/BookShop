@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/*request book*/
+
+#request_cont_box {
+	padding-top: 30px;
+}
+
+#request_cont_box h3{
+	font-weight: bold;
+	margin: 30px 0 10px 0;
+}
+
+#request_cont_box p {
+	padding: 5px 0;
+}
+
+#request_cont_box span {
+	padding: 0 20px 0 0;
+}
+
+#request_tb_box {
+	width: 100%;
+	padding : 20px 0;
+	border-top : 1px solid gray;
+	border-bottom : 1px solid gray;
+	background-color: #f9f9f9;
+	margin-bottom: 20px;
+}
+
+#request_tb {
+	width: 100%;
+	height : 120px;
+}
+
+#request_tb th{
+	text-align: center;
+}
+
+#request_tb td {
+	text-align: left;
+}
+
+#request_cont_box textarea {
+	width: 100%;
+	border: none;
+	border-bottom : 2px solid black;
+	resize : none;
+	padding : 20px 30px;
+}
+
+#request_cont_box textarea:focus {
+	outline: none;
+}
+
+#request_btn_box {
+	text-align: right;
+	margin : 20px;
+}
+
+#request_btn_box button {
+	margin : 0 5px;
+}
+
+#request_book_info_tb {
+	background-color: #f9f9f9;
+	border-top : 1px solid black;
+	border-bottom : 1px solid gray;
+	padding : 20px 30px 20px 30px;
+}
+
+#request_book_info_tb table {
+	width : 100%;
+	height: 150px;
+}
+
+#request_book_info_tb table th{
+	text-align: center;
+}
+
+#request_book_info_tb table td{
+	text-align: left;
+}
+
+.reqeust_form_tb {
+	padding : 20px 30px 20px 30px;
+}
+
+.reqeust_form_tb table {
+	width : 100%;
+	hegiht : 350px;
+}
+
+.reqeust_form_tb table th{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.reqeust_form_tb table td{
+	text-align: left;
+	padding: 10px 0;
+}
+
+.reqeust_form_tb table textarea{
+	resize: none;
+}
+
+.request_form_btn_box {
+	text-align: center;
+}
+
+#request_update_info_tb {
+	background-color: #f9f9f9;
+	border-top : 1px solid black;
+	border-bottom : 1px solid gray;
+	padding : 20px 30px 20px 30px;
+	margin-top: 80px;
+}
+
+#request_update_info_tb table {
+	width : 100%;
+	height: 150px;
+}
+
+#request_update_info_tb table th{
+	text-align: center;
+}
+
+#request_update_info_tb table td{
+	text-align: left;
+}
+
+.star {
+	color: red;
+	padding : 0 1px;
+}
+
+.request_search_box {
+	text-align: center;
+	padding: 40px 0 30px 0;
+	
+}
+
+.request_search_box p{
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.request_search_box span{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#request_btn_box button {
+	width : 10%;
+	height: 40px;
+}

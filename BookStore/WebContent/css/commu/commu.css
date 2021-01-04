@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#commu_box {
+	width : 90%;
+	margin : 0 auto;
+}
+
+#commu_box h3 {
+	padding : 15px 20px;
+}
+
+#commu_box table, #commu_btn_box  { 
+	width : 95%;
+	margin: 0 auto;
+}
+
+#commu_btn_box {
+	text-align: right;
+	padding: 20px 0;
+}
+	

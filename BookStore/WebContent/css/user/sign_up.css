@@ -1,0 +1,53 @@
+@charset "UTF-8";
+body {
+	text-align: center;
+}
+.container{
+	align-items: center;
+	text-align: center;
+}
+
+#address_div .input-group input{
+	width: 945;
+	display: inline;
+}
+table{
+	width: 70%;
+	margin: auto;
+	text-align: center;
+}
+#sign_up_wrap{
+	background-color: #f9f9f9;
+}
+#sign_up_box{
+	background-color: white;
+	width : 70%;
+	margin : 30px auto;
+	text-align: center;
+	padding : 0 20px;;
+}
+#sign_up_box table th, #sign_up_box table td{
+	padding: 10px 0;
+}
+#mem_birth_month{
+	display: inline;
+	width: 200px;
+}
+#mem_birth_day_p{
+	display: inline;
+	width: 200px;
+}
+.input_length{
+	width: 427px;
+}
+#btn_box{
+	padding: 30px 0 20px 0;
+	text-align: center;
+}
+
+@media (max-width: 1000px) {
+	#sign_up_box{width: 100%;}
+}
+@media (max-width: 768px) {
+	#sign_up_box{width: 100%;}
+}

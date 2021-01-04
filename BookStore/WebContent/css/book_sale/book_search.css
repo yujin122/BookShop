@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+#book_search_box{
+	text-align: center;
+	padding : 10px;
+}
+
+#book_search_box h3 {
+	font-weight: bold;
+}
+
+#search_box{
+	padding : 10px;
+}
+
+#search_box table {width:80%; margin:auto;}
+
+#search_box table button {height: 35px;}
+
+#book_search_table table{
+	width: 90%;
+	margin : auto;
+}
+
+#book_search_table table th {
+	width : 30%;
+	text-align: right;
+	padding : 10px;
+}
+
+#book_search_table table td {
+	padding : 10px;
+	text-align: left;
+}
+
+#book_search_table table {
+	border-top : 1px solid #9a9a9a;
+	border-bottom : 1px solid #9a9a9a;
+}
+
+#book_search_table a{
+	text-decoration: none;
+	color: black;
+}
+
+#book_search_table a:hover{
+	text-decoration: none;
+}
+
+#book_search_table table:hover {
+	background-color: #eaeaea;
+}
+
+.page_box a {
+	font-size : 15px;
+}
+
+.page_box a:hover {
+	font-weight: bold;
+}

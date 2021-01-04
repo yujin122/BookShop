@@ -1,0 +1,30 @@
+@charset "UTF-8";
+#ment_pwd{ width: 65px; }
+
+#ment_write_pwd{ width: 65px; }
+
+#ment_write_id{ width: 100px; }
+
+.btn_white{
+	width: 65px;
+	height: 26px;
+}
+
+.ment_reply_pwd{ width: 65px; }
+
+.ment_reply_td{
+	text-align: left;
+	align-items: left;
+	align-content: left;
+}
+
+#ment_tb{
+	border-bottom-color: #363636;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+
+#list_tr{
+	background-color: #81BEF7;
+	color: white;
+}

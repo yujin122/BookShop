@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+#mem_del_box {
+	width : 100%;
+	text-align: center;
+	padding : 100px;
+}
+
+#mem_del_box p {
+	font-size: 16px;
+	text-align: center;
+}
+
+#mem_del_box table {
+	width : 50%;
+	margin : 20px auto;
+}
+
+#mem_del_box table th {
+	text-align: center;
+	padding : 10px 0;
+}
+
+#mem_del_box table td {
+	text-align: left;
+	padding : 10px 0;
+}
+
+@media (max-width: 1000px) {
+	#mem_del_box {padding : 50px 0;}
+}

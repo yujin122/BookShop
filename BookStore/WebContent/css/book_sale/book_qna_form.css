@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.book_qna_box {
+	text-align: center;
+	padding : 20px;
+}
+
+.book_qna_box textarea {
+	resize: none;
+}
+
+#qna_table table {
+	width : 100%;
+}
+
+#qna_table table td {
+	padding : 5px 0;
+}

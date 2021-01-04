@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+.qna_tit_td {
+	width : 40%;
+	text-align: left;
+}
+
+#all_qna_btn {
+	padding : 10px;
+	text-align: right;
+}
+
+#qna_search_box {
+	padding: 20px;
+	text-align: center;
+}
+
+.qna_search_info_box {
+	text-align: center;
+	padding: 40px 0 30px 0;
+	
+}
+
+.qna_search_info_box p{
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.qna_search_info_box span{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#nick_td {
+	width : 20%;
+}
+
+#pwd_box {
+	width : 50%;
+	margin : 90px auto;
+	text-align: center;
+	padding : 20px 0;
+} 
+
+#pwd_box p {
+	font-weight: bold;
+	font-size: 18px;
+	margin : 20px 0 40px 0;
+}
+
+#qna_check_btn {
+	text-align: center;
+	padding : 40px 0;
+}
+
+#qna_cont_box {
+	padding : 40px 25px 0 25px;
+	border : 1px solid #b1b1b1;
+	margin-top : 20px;
+}
+
+#qna_cont_box p {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left : 10px;
+}
+
+#qna_cont_box h3 {
+	margin: 0px 0px 10px 10px;
+}
+
+#qna_cont_box span {
+	padding: 0 10px 0 10px; 
+}
+
+#qna_cont_box textarea {
+	resize : none;
+	width : 100%;
+	padding : 0 10px;
+	margin : 20px 0;
+	border : 0;
+}
+
+#qna_cont_box textarea:focus {
+	outline: none;
+}
+
+#opetion_box {
+	width : 100%;
+	padding : 10px;
+	text-align: right;
+}
+
+#opetion_box input {
+	width : 10%;
+}
+
+#lock_img {
+	width : 20px;
+	height : 20px;
+}
+
+@media (max-width: 768px) {
+	.qna_tit_td{width:50%;}
+	#pwd_box input[type=password] {width:50%; display: inline-block;}
+}
